@@ -38,7 +38,7 @@ public class carer_login {
 		
 		WebElement validusername1 = driver.findElement(By.xpath("//input[@data-parsley-id='4']"));
 		Assert.assertTrue(validusername1.isDisplayed());
-		validusername1.sendKeys("shanmukh.balkunde@v2stech.com");
+		//validusername1.sendKeys("shanmukh.balkunde@v2stech.com");
 
 		WebElement validpass = driver.findElement(By.xpath("//input[@data-parsley-id='6']"));
 		Assert.assertTrue(validpass.isDisplayed());
