@@ -26,7 +26,7 @@ public class carer_login {
 	@BeforeTest
 	public void init_browser() {
 		System.setProperty("webdriver.chrome.driver", "/home/shanmukh/automation/chromedriver");
-
+//Test
 		driver = new ChromeDriver();
 		driver.get("https://demo.eplancare.com/web/login");
 		driver.manage().window().maximize();
